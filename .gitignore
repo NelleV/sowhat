@@ -1,0 +1,4 @@
+*.swo
+*.swp
+sowhat.egg-info
+*__pycache__*
