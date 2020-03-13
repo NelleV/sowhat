@@ -10,3 +10,8 @@ def add_title(title, level="="):
 def add_image(image_url):
     restructured_text = ".. image:: %s\n\n" % image_url
     return restructured_text
+
+
+def add_link(name, link):
+    restructured_text = "`%s <%s>`_" % (name, link)
+    return restructured_text
