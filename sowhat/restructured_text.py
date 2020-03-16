@@ -1,4 +1,8 @@
 
+def add_toc():
+    restructured_text = ".. contents::\n\n"
+    return restructured_text
+
 
 def add_title(title, level="="):
     restructured_text = title + "\n"
